@@ -2,6 +2,7 @@ import os
 
 import gradio as gr
 from huggingface_hub import login
+
 from playground_app import demo as playground_tab
 
 auth_token = os.environ.get("HF_TOKEN", None)
@@ -16,9 +17,8 @@ title = """
 """
 
 with gr.Blocks() as demo:
-    _ = gr.HTML(f"<h1 style='text-align: center; margin-bottom: 1rem'>{title}</h1>")
-    _ = playground_tab.render()
+    gr.HTML(f"<h1 style='text-align: center; margin-bottom: 1rem'>{title}</h1>")
+    playground_tab.render()
 
 if __name__ == "__main__":
-    # demo.launch()
     demo.launch(share=True)
