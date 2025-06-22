@@ -4,6 +4,7 @@ from typing import Any
 
 import gradio as gr
 import pandas as pd
+from loguru import logger
 
 from playground_examples import (
     default_tokenizer_name_1,
@@ -12,7 +13,6 @@ from playground_examples import (
     examples,
 )
 from playground_tokenizers import TokenizerFactory
-from utils.log_util import logger
 
 
 @lru_cache

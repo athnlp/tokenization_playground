@@ -11,3 +11,4 @@ ai2-olmo
 ipadic
 fugashi
 datasets
+loguru
