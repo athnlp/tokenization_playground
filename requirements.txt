@@ -1,0 +1,13 @@
+gradio>=4.38.1
+transformers>4.40.0
+sentencepiece
+tiktoken
+icetk
+torch
+nltk
+boto3
+protobuf==4.25.3
+ai2-olmo
+ipadic
+fugashi
+datasets
