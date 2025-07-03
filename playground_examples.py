@@ -5,10 +5,9 @@ default_tokenizer_name_1 = "openai/gpt-4o"
 default_tokenizer_name_2 = "Qwen/Qwen2.5-72B"
 
 
-number_example = """127+677=804
-127 + 677 = 804\n
-1275+6773 = 8041
-1275 + 6773 = 8048"""
+number_example = """127+677=804\n
+127 + 677 = 804
+"""
 
 code_example = """for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
@@ -27,9 +26,9 @@ How many r's are in the word strawberry?"""
 
 
 greek_example = """
-# Both refer to "I am sorry"
+# Both mean 'I am sorry' though the latter one contains accent mark or stress mark
+Συγνωμη
 Συγνώμη
-Συγγνώμη
 
 # Both refer to "bean"
 Φασόλι
@@ -48,8 +47,8 @@ greek_example = """
 Πάπους 
 
 # They mean two completely different things! 
-Νόνα # refers to grandmother commonsly in ionion pelagos
-Νονά # refers to godmother based on Christianity
+Νόνα # refers to grandmother commonly observed in Ionion pelagos
+Νονά # refers to godmother in Christianity
 
 # Both refer to something new
 καινούριος
