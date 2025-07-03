@@ -96,6 +96,7 @@ tokenizer_configs = [
     TokenizerConfig("google/mt5-large", org="Google"),
     TokenizerConfig("deepseek-ai/deepseek-coder-33b-instruct", org="DeepSeek"),
     TokenizerConfig("deepseek-ai/DeepSeek-V3", org="DeepSeek"),
+    TokenizerConfig("ilsp/Llama-Krikri-8B-Base", org="ILSP"),
 ]
 
 assert len(set([config.name_display for config in tokenizer_configs])) == len(
