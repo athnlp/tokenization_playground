@@ -85,7 +85,7 @@ examples = {
     },
     "greek": {
         "text": greek_example,
-        "tokenizer_1": "ilsp/Llama-Krikri-8B-Base",
-        "tokenizer_2": "CohereForAI/aya-101",
+        "tokenizer_1": default_tokenizer_name_1,
+        "tokenizer_2": "ilsp/Llama-Krikri-8B-Base",
     },
 }
